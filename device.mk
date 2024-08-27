@@ -26,6 +26,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/adb/busybox:root/sbin/sh
 
+# Graphics
+PRODUCT_PACKAGES += \
+    libGLES_android
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
