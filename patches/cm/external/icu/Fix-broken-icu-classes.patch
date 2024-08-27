@@ -1,0 +1,84 @@
+From fbb1fb84fc50d94e8df9ffb96432e3d65a620638 Mon Sep 17 00:00:00 2001
+From: schwienernitzel <pfelix0803@gmail.com>
+Date: Sat, 13 Jul 2024 11:45:07 +0000
+Subject: [PATCH] external Fix broken icu classes wtf critical
+
+---
+ .../com/ibm/icu/impl/LocaleDisplayNamesImpl.java   | 14 +++++++-------
+ .../core/src/com/ibm/icu/util/LocaleMatcher.java   | 14 +++++++-------
+ 2 files changed, 14 insertions(+), 14 deletions(-)
+
+diff --git a/icu4j/main/classes/core/src/com/ibm/icu/impl/LocaleDisplayNamesImpl.java b/icu4j/main/classes/core/src/com/ibm/icu/impl/LocaleDisplayNamesImpl.java
+index abff069a9..74738d6af 100644
+--- a/icu4j/main/classes/core/src/com/ibm/icu/impl/LocaleDisplayNamesImpl.java
++++ b/icu4j/main/classes/core/src/com/ibm/icu/impl/LocaleDisplayNamesImpl.java
+@@ -146,17 +146,17 @@ public class LocaleDisplayNamesImpl extends LocaleDisplayNames {
+             pattern = "{0} ({1})";
+         }
+         this.format = new MessageFormat(pattern);
+-        if (pattern.contains("（")) {
++        /*if (pattern.contains("（")) {
+             formatOpenParen = '（';
+             formatCloseParen = '）';
+             formatReplaceOpenParen = '［';
+             formatReplaceCloseParen = '］';
+-        } else  {
+-            formatOpenParen = '(';
+-            formatCloseParen = ')';
+-            formatReplaceOpenParen = '[';
+-            formatReplaceCloseParen = ']';
+-        }
++        } else  {*/
++        formatOpenParen = '(';
++        formatCloseParen = ')';
++        formatReplaceOpenParen = '[';
++        formatReplaceCloseParen = ']';
++        //}
+ 
+         String keyTypePattern = langData.get("localeDisplayPattern", "keyTypePattern");
+         if ("keyTypePattern".equals(keyTypePattern)) {
+diff --git a/icu4j/main/classes/core/src/com/ibm/icu/util/LocaleMatcher.java b/icu4j/main/classes/core/src/com/ibm/icu/util/LocaleMatcher.java
+index 55160a8fd..2173836f0 100644
+--- a/icu4j/main/classes/core/src/com/ibm/icu/util/LocaleMatcher.java
++++ b/icu4j/main/classes/core/src/com/ibm/icu/util/LocaleMatcher.java
+@@ -801,7 +801,7 @@ public class LocaleMatcher {
+             if (0 != diff) {
+                 return diff;
+             }
+-            String thisSource = source.replace('*', 'þ'); // just something after Z
++            /*String thisSource = source.replace('*', 'þ'); // just something after Z
+             String otherSource = other.source.replace('*', 'þ'); // just something after Z
+             diff = thisSource.compareTo(otherSource);
+             if (0 != diff) {
+@@ -809,7 +809,7 @@ public class LocaleMatcher {
+             }
+             String thisTarget = target.replace('*', 'þ'); // just something after Z
+             String otherTarget = other.target.replace('*', 'þ'); // just something after Z
+-            diff = thisTarget.compareTo(otherTarget);
++            diff = thisTarget.compareTo(otherTarget);*/
+ 
+ //            Matcher matcher = STAR_KEEP.matcher(source);
+ //            matcher.matches();
+@@ -822,14 +822,14 @@ public class LocaleMatcher {
+ //            String thirdB = matcher.group(2);
+ //
+ //            int diff = onlyStars.length() - onlyStarsOther.length();
+-            
+-            if (0 != diff) {
++
++            /*if (0 != diff) {
+                 return diff;
+-            }
++            }*/
+             diff = source.compareTo(other.source);
+-            if (0 != diff) {
++            /*if (0 != diff) {
+                 return diff;
+-            }
++            }*/
+             return target.compareTo(other.target);
+         }
+         /**
+-- 
+2.25.1
+

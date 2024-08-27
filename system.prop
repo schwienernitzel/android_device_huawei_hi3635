@@ -1,0 +1,16 @@
+# Audio
+ro.config.hw_dts=false
+
+# Bluetooth
+ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+
+# CPU
+ro.hardware.alter=Hisilicon Kirin 930
+
+# Display
+ro.sf.lcd_density=360
+ro.opengles.version=196608
+ro.config.mmu_en=1
+
+# Sensors
+ro.config.hw_sensorhub=true
