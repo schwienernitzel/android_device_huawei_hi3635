@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
     $(DEVICE_PATH)/configs/audio/topazhp.cfg:system/etc/topazhp.cfg
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
 # Graphics
 PRODUCT_PACKAGES += \
     libGLES_android
