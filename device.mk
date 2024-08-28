@@ -26,6 +26,25 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/adb/busybox:root/sbin/sh
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.primary.default \
+    audio.a2dp.default \
+    audio.usb.default \
+    audio.r_submix.default \
+    libaudioutils \
+    libaudioroute \
+    libtinyalsa \
+    tinyplay \
+    tinycap \
+    tinymix \
+    tinypcminfo
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    $(DEVICE_PATH)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
+    $(DEVICE_PATH)/configs/audio/topazhp.cfg:system/etc/topazhp.cfg
+
 # Graphics
 PRODUCT_PACKAGES += \
     libGLES_android
