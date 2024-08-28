@@ -29,12 +29,12 @@
 | `GPS` | _not working_ | **liszt, mozart** | |
 | `Hardware Composer` | _not working_ | **liszt, mozart** | |
 | `Init` | _not working_ | **liszt, mozart** | |
-| `LiveDisplay` | _not working_ | **liszt, mozart** | |
+| `Live Display` | _not working_ | **liszt, mozart** | |
 | ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
 | `OMX` | _not working_ | **liszt, mozart** | | 
 | `RIL` | _not working_ | **liszt, mozart** | |
 | ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | `androidboot.selinux` set to permissive | 
-| `Sensors` | _not working_ | **liszt, mozart** | |
+| ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Thermal` | _not working_ | **liszt, mozart** | |
 | `Touchscreen` | _not working_ | **liszt, mozart** | |
 | `USB` | _not working_ | **liszt, mozart** | |
