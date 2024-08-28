@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     oeminfo_nvm_server \
+    hw_healthd \
     teecd
 
 # Screen
