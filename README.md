@@ -17,6 +17,27 @@
 - M2-A01L
 - M2-A01W
 
+## Issue tracker:
+
+| Feature                                  | Status                              | Device                             | Comments                       | 
+| :------------------------------------  | :-------------------------------- | :-------------------------------- | :-------------------------------- | 
+| `Audio` | _not working_ | **liszt, mozart** | |
+| `Bluetooth` | _not working_ | **liszt, mozart** | |
+| `Camera` | _not working_ | **liszt, mozart** | |
+| `External Storage` | _not working_ | **liszt, mozart** | |
+| `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
+| `GPS` | _not working_ | **liszt, mozart** | |
+| `Hardware Composer` | _not working_ | **liszt, mozart** | |
+| `Init` | _not working_ | **liszt, mozart** | |
+| `Offline Charging` | _not working_ | **liszt, mozart** | | 
+| `OMX` | _not working_ | **liszt, mozart** | | 
+| `RIL` | _not working_ | **liszt, mozart** | |
+| `SELinux` | _not working_ | **liszt, mozart** | | 
+| `Sensors` | _not working_ | **liszt, mozart** | |
+| `Thermal` | _not working_ | **liszt, mozart** | |
+| `Touchscreen` | _not working_ | **liszt, mozart** | |
+| `Wifi` | _not working_ | **liszt, mozart** | |
+
 ## How to build the ROM:
 
 1. You need Linux to be able to build Android from source. Here, I use Ubuntu 20.04 LTS to build.
