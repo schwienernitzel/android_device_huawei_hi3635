@@ -21,7 +21,7 @@
 
 | Feature                                  | Status                              | Device                             | Comments                       | 
 | :------------------------------------  | :-------------------------------- | :-------------------------------- | :-------------------------------- | 
-| `Audio` | _not working_ | **liszt, mozart** | |
+| ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Bluetooth` | _not working_ | **liszt, mozart** | |
 | `Camera` | _not working_ | **liszt, mozart** | |
 | `External Storage` | _not working_ | **liszt, mozart** | |
