@@ -53,6 +53,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLES_android
 
+# Hardware Composer
+PRODUCT_PACKAGES += \
+    hwcomposer.hi3635
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
