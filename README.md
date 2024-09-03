@@ -24,7 +24,7 @@
 | ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Bluetooth`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Camera` | _not working_ | **liszt, mozart** | |
-| `External Storage` | _not working_ | **liszt, mozart** | |
+| ~~`External Storage`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
 | `GPS` | _not working_ | **liszt, mozart** | |
 | ~~`Hardware Composer`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Currently using the [`Hisi_HwComposer`](https://github.com/XePeleato/Hisi_HwComposer) by [XePeleato](https://github.com/XePeleato) |
