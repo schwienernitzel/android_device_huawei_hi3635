@@ -27,17 +27,17 @@
 | `External Storage` | _not working_ | **liszt, mozart** | |
 | `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
 | `GPS` | _not working_ | **liszt, mozart** | |
-| `Hardware Composer` | _not working_ | **liszt, mozart** | |
+| ~~`Hardware Composer`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Currently using the [`Hisi_HwComposer`](https://github.com/XePeleato/Hisi_HwComposer) by [XePeleato](https://github.com/XePeleato) |
 | `Init` | _not working_ | **liszt, mozart** | |
-| `Live Display` | _not working_ | **liszt, mozart** | |
+| ~~`Live Display`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
 | `OMX` | _not working_ | **liszt, mozart** | | 
 | `RIL` | _not working_ | **liszt, mozart** | |
-| ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> `androidboot.selinux` set to permissive | 
-| ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
+| ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `androidboot.selinux` set to permissive | 
+| ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> → `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
 | `Thermal` | _not working_ | **liszt, mozart** | |
-| `Touchscreen` | _not working_ | **liszt, mozart** | |
-| `USB` | _not working_ | **liszt, mozart** | |
+| ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
+| ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 
 ## How to build the ROM:
