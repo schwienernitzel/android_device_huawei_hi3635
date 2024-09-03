@@ -102,6 +102,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.app_widgets.xml:system/etc/permissions/android.software.app_widgets.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    power.hi3635
+
 # Properties
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.zygote=zygote64_32 \
