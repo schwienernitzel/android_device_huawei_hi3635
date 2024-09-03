@@ -22,7 +22,7 @@
 | Feature                                  | Status                              | Device                             | Comments                       | 
 | :------------------------------------  | :-------------------------------- | :-------------------------------- | :-------------------------------- | 
 | ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| `Bluetooth` | _not working_ | **liszt, mozart** | |
+| ~~`Bluetooth`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Camera` | _not working_ | **liszt, mozart** | |
 | `External Storage` | _not working_ | **liszt, mozart** | |
 | `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
@@ -38,7 +38,7 @@
 | `Thermal` | _not working_ | **liszt, mozart** | |
 | `Touchscreen` | _not working_ | **liszt, mozart** | |
 | `USB` | _not working_ | **liszt, mozart** | |
-| `Wifi` | _not working_ | **liszt, mozart** | |
+| ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 
 ## How to build the ROM:
 
