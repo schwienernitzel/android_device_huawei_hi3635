@@ -199,7 +199,7 @@ static void power_hint(struct power_module *module __unused,
 
     switch (hint) {
       case POWER_HINT_INTERACTION:
-      case POWER_HINT_LAUNCH:
+      //case POWER_HINT_LAUNCH:
       case POWER_HINT_CPU_BOOST:
         if (is_profile_valid(current_power_profile) < 0) {
             ALOGD("%s: no power profile selected yet", __func__);
