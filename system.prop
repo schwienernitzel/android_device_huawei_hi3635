@@ -12,6 +12,9 @@ ro.sf.lcd_density=320
 ro.opengles.version=196608
 ro.config.mmu_en=1
 
+# SDcard
+ro.sys.sdcardfs=true
+
 # Sensors
 ro.config.hw_sensorhub=true
 
