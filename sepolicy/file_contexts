@@ -1,2 +1,3 @@
 # File contexts
+/system/bin/gpsdaemon					u:object_r:gpsdaemon_exec:s0
 /system/bin/mac_addr_normalization			u:object_r:mac_addr_normalization_exec:s0
