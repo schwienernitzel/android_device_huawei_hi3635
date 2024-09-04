@@ -145,6 +145,11 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/thermal/thermald.xml:system/etc/thermald.xml \
+    $(DEVICE_PATH)/configs/thermal/thermald_performance.xml:system/etc/thermald_performance.xml
+
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
