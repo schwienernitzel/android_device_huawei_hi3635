@@ -35,7 +35,7 @@
 | `RIL` | _not working_ | **liszt, mozart** | |
 | ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `androidboot.selinux` set to permissive | 
 | ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> → `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
-| `Thermal` | _not working_ | **liszt, mozart** | |
+| ~~`Thermal`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
 | ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
