@@ -49,6 +49,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/gps/clatd.conf:system/etc/clatd.conf \
+    $(DEVICE_PATH)/configs/gps/gps.conf:system/etc/gps.conf \
+    $(DEVICE_PATH)/configs/gps/gps47531config.xml:system/etc/gps47531config.xml \
+    $(DEVICE_PATH)/configs/gps/gps47531config_beta.xml:system/etc/gps47531config_beta.xml
+
 # Graphics
 PRODUCT_PACKAGES += \
     libGLES_android

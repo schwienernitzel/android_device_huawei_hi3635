@@ -52,6 +52,9 @@ TARGET_NO_RADIOIMAGE := true
 # Color Calibration
 BOARD_HARDWARE_CLASS := $(DEVICE_PATH)/colors
 
+# GPS
+USE_DEVICE_SPECIFIC_GPS := true
+
 # Graphics
 USE_OPENGL_RENDERER := true
 TARGET_HARDWARE_3D := true
