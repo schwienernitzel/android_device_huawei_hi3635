@@ -75,3 +75,8 @@ mka bacon
 | ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Widevine` | _not working_ | **liszt, mozart** | |
 | ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+
+## Screenshots:
+
+| ![mozart](./screenshots/sc2.png) | ![liszt](./screenshots/sc1.png) |
+|:--:|:--:|
