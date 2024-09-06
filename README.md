@@ -17,33 +17,6 @@
 - M2-A01L
 - M2-A01W
 
-## Issue tracker:
-
-| Feature                                  | Status                              | Device                             | Comments                       | 
-| :------------------------------------  | :-------------------------------- | :-------------------------------- | :-------------------------------- | 
-| ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| ~~`Bluetooth`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| `Camera` | _not working_ | **liszt, mozart** | |
-| `DRM` | _not working_ | **liszt, mozart** | |
-| ~~`External Storage`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
-| `Gatekeeper` | _not working_ | **liszt, mozart** | |
-| ~~`GPS`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| ~~`Hardware Composer`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Currently using the implementation by [`Meticulus`](https://github.com/penn5/android_device_huawei_hi6250-common/tree/cm-13.0/libhwcomposer) |
-| `Init` | _not working_ | **liszt, mozart** | |
-| `Keystore` | _not working_ | **liszt, mozart** | |
-| ~~`Live Display`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
-| ~~`OMX`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Not completed... |
-| `RIL` | _not working_ | **liszt, mozart** | |
-| ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `androidboot.selinux` set to permissive | 
-| ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> → `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
-| ~~`Thermal`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
-| ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-| `Widevine` | _not working_ | **liszt, mozart** | |
-| ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
-
 ## How to build the ROM:
 
 1. You need Linux to be able to build Android from source. Here, I use Ubuntu 20.04 LTS to build.
@@ -75,3 +48,30 @@ mka bacon
 > **Note:** You might have to adjust the memory assignments depending on your hardware specifications.
 
 6. **Done!** Please note that this work is opensource and every kind of **contribution is highly appreciated.** Feel free to create a fork, pull request or issue to make your contribution. Please let me know if there are code mistakes, typos, or outdated information. If you like my work, [buy me a cup of coffee.](https://paypal.me/felixpat)
+
+## Issue tracker:
+
+| Feature                                  | Status                              | Device                             | Comments                       | 
+| :------------------------------------  | :-------------------------------- | :-------------------------------- | :-------------------------------- | 
+| ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| ~~`Bluetooth`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| `Camera` | _not working_ | **liszt, mozart** | |
+| `DRM` | _not working_ | **liszt, mozart** | |
+| ~~`External Storage`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
+| `Gatekeeper` | _not working_ | **liszt, mozart** | |
+| ~~`GPS`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| ~~`Hardware Composer`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Currently using the implementation by [`Meticulus`](https://github.com/penn5/android_device_huawei_hi6250-common/tree/cm-13.0/libhwcomposer) |
+| `Init` | _not working_ | **liszt, mozart** | |
+| `Keystore` | _not working_ | **liszt, mozart** | |
+| ~~`Live Display`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
+| ~~`OMX`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Not completed... |
+| `RIL` | _not working_ | **liszt, mozart** | |
+| ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `androidboot.selinux` set to permissive | 
+| ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> → `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
+| ~~`Thermal`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
+| ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| `Widevine` | _not working_ | **liszt, mozart** | |
+| ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
