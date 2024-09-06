@@ -24,11 +24,14 @@
 | ~~`Audio`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Bluetooth`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Camera` | _not working_ | **liszt, mozart** | |
+| `DRM` | _not working_ | **liszt, mozart** | |
 | ~~`External Storage`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Fingerprint` | _not working_ | **liszt, ~~mozart~~** | | 
+| `Gatekeeper` | _not working_ | **liszt, mozart** | |
 | ~~`GPS`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Hardware Composer`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Currently using the implementation by [`Meticulus`](https://github.com/penn5/android_device_huawei_hi6250-common/tree/cm-13.0/libhwcomposer) |
 | `Init` | _not working_ | **liszt, mozart** | |
+| `Keystore` | _not working_ | **liszt, mozart** | |
 | ~~`Live Display`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
 | ~~`OMX`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Not completed... |
@@ -38,6 +41,7 @@
 | ~~`Thermal`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
 | ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| `Widevine` | _not working_ | **liszt, mozart** | |
 | ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 
 ## How to build the ROM:
