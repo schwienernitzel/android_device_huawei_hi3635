@@ -3,6 +3,7 @@
 on early-init
 
 on init
+    setprop ro.sf.lcd_density 320
 
 on early-fs
 
