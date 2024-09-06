@@ -42,7 +42,7 @@ void init_target_properties()
 
     fin.open("/sys/firmware/devicetree/base/hisi,boardname");
     while (getline(fin, buf))
-        if ((buf.find("801W") != std::string::npos) || (buf.find("A01L") != std::string::npos))
+        if ((buf.find("801W") != std::string::npos) || (buf.find("801L") != std::string::npos) || (buf.find("802L") != std::string::npos) || (buf.find("803L") != std::string::npos) || (buf.find("A01L") != std::string::npos) || (buf.find("A01W") != std::string::npos))
             break;
     fin.close();
 
@@ -50,8 +50,24 @@ void init_target_properties()
         property_set("ro.product.model", "M2-801W");
         property_set("ro.boardid.product", "61537");
     }
+    else if (buf.find("801L") != std::string::npos) {
+        property_set("ro.product.model", "M2-801L");
+        property_set("ro.boardid.product", "61537");
+    }
+    else if (buf.find("802L") != std::string::npos) {
+        property_set("ro.product.model", "M2-802L");
+        property_set("ro.boardid.product", "61537");
+    }
+    else if (buf.find("803L") != std::string::npos) {
+        property_set("ro.product.model", "M2-803L");
+        property_set("ro.boardid.product", "61537");
+    }
     else if (buf.find("A01L") != std::string::npos) {
         property_set("ro.product.model", "M2-A01L");
+        property_set("ro.boardid.product", "51365");
+    }
+    else if (buf.find("A01W") != std::string::npos) {
+        property_set("ro.product.model", "M2-A01W");
         property_set("ro.boardid.product", "51365");
     }
     else {
