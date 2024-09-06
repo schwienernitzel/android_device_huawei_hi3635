@@ -29,6 +29,7 @@ import /init.hi3635.connectivity.rc
 import /init.hi3635.gps.rc
 import /init.hi3635.power.rc
 import /init.hi3635.usb.rc
+import /init.${ro.boardid.product}.rc
 
 on early-init
     mount debugfs /sys/kernel/debug /sys/kernel/debug mode=0775,gid=1000

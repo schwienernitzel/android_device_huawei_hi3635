@@ -134,6 +134,8 @@ PRODUCT_PACKAGES += \
     init.hi3635.power.rc \
     init.hi3635.rc \
     init.hi3635.usb.rc \
+    init.51365.rc \
+    init.61537.rc \
     ueventd.hi3635.rc
 
 PRODUCT_PACKAGES += \
