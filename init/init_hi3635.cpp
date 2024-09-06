@@ -37,22 +37,20 @@
 
 void init_target_properties()
 {
-    char platform[PROP_VALUE_MAX];
     std::ifstream fin;
     std::string buf;
-    int rc;
 
     fin.open("/sys/firmware/devicetree/base/hisi,boardname");
     while (getline(fin, buf))
-        if ((buf.find("MOZART_801W_01") != std::string::npos) || (buf.find("LISZT_A01L_03") != std::string::npos))
+        if ((buf.find("801W") != std::string::npos) || (buf.find("A01L") != std::string::npos))
             break;
     fin.close();
 
-    if (buf.find("MOZART_801W_01") != std::string::npos) {
+    if (buf.find("801W") != std::string::npos) {
         property_set("ro.product.model", "M2-801W");
         property_set("ro.boardid.product", "61537");
     }
-    else if (buf.find("LISZT_A01L_03") != std::string::npos) {
+    else if (buf.find("A01L") != std::string::npos) {
         property_set("ro.product.model", "M2-A01L");
         property_set("ro.boardid.product", "51365");
     }
