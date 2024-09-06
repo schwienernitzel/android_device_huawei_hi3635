@@ -31,7 +31,7 @@
 | `Init` | _not working_ | **liszt, mozart** | |
 | ~~`Live Display`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Offline Charging`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** | 
-| `OMX` | _not working_ | **liszt, mozart** | | 
+| ~~`OMX`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Not completed... |
 | `RIL` | _not working_ | **liszt, mozart** | |
 | ~~`SELinux`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `androidboot.selinux` set to permissive | 
 | ~~`Sensors`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → `E SensorHub:` failed open /sys/class/sensors/libsensor_ver <br> → `E SensorHub:` open /sys/class/sensors/mag_sensor/calibrate_method fail, ret=-1 |
