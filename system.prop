@@ -12,6 +12,13 @@ ro.sf.lcd_density=320
 ro.opengles.version=196608
 ro.config.mmu_en=1
 
+# Media
+media.stagefright.use-awesome=false
+
+# Performance
+ro.am.reschedule_service=true
+ro.config.enable_rcc=true
+
 # SDcard
 ro.sys.sdcardfs=true
 
