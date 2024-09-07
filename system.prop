@@ -18,6 +18,10 @@ media.stagefright.use-awesome=false
 ro.am.reschedule_service=true
 ro.config.enable_rcc=true
 
+# RIL
+ro.radio.noril=true
+ro.carrier=wifi-only
+
 # SDcard
 ro.sys.sdcardfs=true
 
