@@ -32,4 +32,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources>
     <!-- Enable doze mode -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Whether we're using the tablet-optimized recents interface (we use this
+     value at runtime for some things) -->
+    <bool name="config_recents_interface_for_tablets">true</bool>
 </resources>
