@@ -19,8 +19,9 @@ DEVICE_PATH := device/huawei/hi3635
 $(call inherit-product, vendor/huawei/hi3635/vendor.mk)
 
 # AAPT
-PRODUCT_AAPT_CONFIG := normal xxhdpi
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_TAGS += dalvik.gc.type-precise
 
 # ADB
 PRODUCT_COPY_FILES += \
