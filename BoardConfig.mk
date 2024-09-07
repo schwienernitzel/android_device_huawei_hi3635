@@ -107,6 +107,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.hi3635
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# WEBGL
+ENABLE_WEBGL := true
+
 # Wifi
 TARGET_USES_64_BIT_BCMDHD	 := true
 BOARD_WLAN_DEVICE                := bcmdhd
