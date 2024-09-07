@@ -26,6 +26,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/adb/busybox:root/sbin/sh
 
+# Ambient
+PRODUCT_PACKAGES += \
+    ambientsdk
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.default \
@@ -48,6 +52,10 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
 
 # GPS
 PRODUCT_COPY_FILES += \
