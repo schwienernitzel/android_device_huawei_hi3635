@@ -52,6 +52,10 @@ TARGET_NO_RADIOIMAGE := true
 # Color Calibration
 BOARD_HARDWARE_CLASS := $(DEVICE_PATH)/colors
 
+# CPU
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
 
