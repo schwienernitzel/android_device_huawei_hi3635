@@ -73,7 +73,7 @@ mka bacon
 | ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
 | ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | `Widevine` | _not working_ | **liszt, mozart** | |
-| ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → Disconnects during standby |
+| ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 
 ## Screenshots:
 
