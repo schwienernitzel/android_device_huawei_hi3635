@@ -72,6 +72,7 @@ mka bacon
 | ~~`Thermal`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 | ~~`Touchscreen`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **PARTIALLY FIXED** <br> → The default screen orientation needs to be set to _landscape_ on liszt |
 | ~~`USB`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
+| `Webview` | _not working_ | **liszt, mozart** | |
 | `Widevine` | _not working_ | **liszt, mozart** | |
 | ~~`Wifi`~~ | _~~not working~~_ | **~~liszt, mozart~~** | **FIXED** |
 
