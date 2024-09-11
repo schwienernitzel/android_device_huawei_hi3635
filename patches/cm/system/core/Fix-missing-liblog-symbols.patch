@@ -1,0 +1,26 @@
+From 1cc11d0bd7922740295baaeb6f862fb6d3c4f4a5 Mon Sep 17 00:00:00 2001
+From: schwienernitzel <pfelix0803@gmail.com>
+Date: Tue, 10 Sep 2024 19:02:34 +0000
+Subject: [PATCH] Fix missing liblog symbols
+
+Change-Id: I49c04a3d3f305329c3dc0e7ef6b93896c1a07c64
+Signed-off-by: schwienernitzel <pfelix0803@gmail.com>
+---
+ liblog/logd_write.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/liblog/logd_write.c b/liblog/logd_write.c
+index b8fd9d5..d8210ae 100644
+--- a/liblog/logd_write.c
++++ b/liblog/logd_write.c
+@@ -716,3 +716,7 @@ void __attribute__((weak)) __xlog_buf_printf(int bufid, const struct xlog_record
+     return;
+ }
+ #endif
++
++extern int __android_janklog_print(int val) {
++    return val;
++}
+-- 
+2.25.1
+
