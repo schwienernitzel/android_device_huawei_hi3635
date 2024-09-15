@@ -94,6 +94,9 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_SOURCE := kernel/huawei/hi3635
 TARGET_KERNEL_CONFIG := lineage_hi3635_defconfig
 
+# Linker
+LD_SHIM_LIBS := '/system/lib64/libsensorservice.so|libshim.so:/system/lib64/hw/sensorhub.default.so|libshim.so'
+
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
