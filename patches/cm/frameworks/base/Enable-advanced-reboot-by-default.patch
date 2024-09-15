@@ -1,0 +1,26 @@
+From 8ef8d4aa762b3015d5b3beb5436f5280181563ed Mon Sep 17 00:00:00 2001
+From: schwienernitzel <pfelix0803@gmail.com>
+Date: Sun, 15 Sep 2024 11:32:25 +0000
+Subject: [PATCH] Enable advanced reboot by default
+
+Change-Id: I6f5503413565e58501eb53e523569505027fdced
+---
+ services/core/java/com/android/server/power/ShutdownThread.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/services/core/java/com/android/server/power/ShutdownThread.java b/services/core/java/com/android/server/power/ShutdownThread.java
+index 36a9ca26..76acf9db 100644
+--- a/services/core/java/com/android/server/power/ShutdownThread.java
++++ b/services/core/java/com/android/server/power/ShutdownThread.java
+@@ -174,7 +174,7 @@ public final class ShutdownThread extends Thread {
+         KeyguardManager km = (KeyguardManager) context.getSystemService(Context.KEYGUARD_SERVICE);
+         boolean keyguardLocked = km.inKeyguardRestrictedInputMode() && km.isKeyguardSecure();
+         boolean advancedRebootEnabled = CMSettings.Secure.getInt(context.getContentResolver(),
+-                CMSettings.Secure.ADVANCED_REBOOT, 0) == 1;
++                CMSettings.Secure.ADVANCED_REBOOT, 1) == 1;
+         boolean isPrimaryUser = UserHandle.getCallingUserId() == UserHandle.USER_OWNER;
+ 
+         return advancedRebootEnabled && !keyguardLocked && isPrimaryUser;
+-- 
+2.25.1
+
