@@ -31,6 +31,10 @@ ARCH_ARM_HAVE_NEON := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 ARCH_ARM_HIGH_OPTIMIZATION := true
 
+# Apps
+TARGET_SUPPORTS_32_BIT_APPS := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hi3635,liszt,mozart
 
@@ -38,6 +42,7 @@ TARGET_OTA_ASSERT_DEVICE := hi3635,liszt,mozart
 BOARD_USES_ALSA_AUDIO := true
 
 # Binder
+TARGET_IS_64_BIT := true
 TARGET_USES_64_BIT_BINDER := true
 
 # Bluetooth
