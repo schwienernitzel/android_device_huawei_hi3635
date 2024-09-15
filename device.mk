@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hwcomposer.hi3635
 
+# Keylayout
+PRODUCT_PACKAGES += \
+    usbaudio.kl
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
