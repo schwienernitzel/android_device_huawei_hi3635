@@ -1,0 +1,26 @@
+From 847602e37f0a043c7837e5433f19c45bd1525a45 Mon Sep 17 00:00:00 2001
+From: schwienernitzel <pfelix0803@gmail.com>
+Date: Sun, 15 Sep 2024 11:28:40 +0000
+Subject: [PATCH] Enable Terminal app by default
+
+Change-Id: Id510d798f95a21c3dfd44dfd36aaeec5f17344d5
+---
+ AndroidManifest.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/AndroidManifest.xml b/AndroidManifest.xml
+index 2ef5046..ed809a1 100644
+--- a/AndroidManifest.xml
++++ b/AndroidManifest.xml
+@@ -31,7 +31,7 @@
+     <application
+         android:icon="@drawable/ic_launcher"
+         android:label="@string/app_label"
+-        android:enabled="false">
++        android:enabled="true">
+ 
+         <activity
+             android:name=".TerminalActivity"
+-- 
+2.25.1
+
