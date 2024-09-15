@@ -46,6 +46,9 @@ void init_target_properties()
             break;
     fin.close();
 
+    property_set("ro.build.description", "MOZART-user 6.0 MRA58K eng.huawei.20161129.130256 test-keys");
+    property_set("ro.build.fingerprint", "Huawei/MOZART/hi3635:6.0/MRA58K/huawei11291304:user/test-keys");
+
     if (buf.find("801W") != std::string::npos) {
         property_set("ro.product.model", "M2-801W");
         property_set("ro.boardid.product", "61537");
