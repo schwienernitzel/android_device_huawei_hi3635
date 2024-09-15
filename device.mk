@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal/thermald.xml:system/etc/thermald.xml \
